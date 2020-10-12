@@ -1,0 +1,8 @@
+# MAC
+*.DS_Store
+
+# LATEX
+*.aux
+*.log
+*.out
+*.synctex.gz
