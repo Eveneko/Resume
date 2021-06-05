@@ -1,0 +1,200 @@
+%!TEX program = xelatex
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Yubin}{Hu}{
+    \urlstyle{same}\href{https://eveneko.com}{eveneko.com} | 
+    188-2334-4853 | 
+    \href{mailto:huyubin0203@gmail.com}{huyubin0203@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{\href{https://www.bupt.edu.cn/}{BUPT}}
+\location{Sep 2021 | Beijing, China}
+\sectionsep
+
+\subsection{\href{https://www.sustech.edu.cn/}{SUSTech}}
+\descript{BEng in Computer Science \\ and Technology}
+\textbf{Department of Computer \\
+Science Engineering \\}
+\location{Supervisor: \href{https://yepangliu.github.io/}{Yepang Liu}}
+\location{Major GPA: 3.52 / 4.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/Eveneko}{\bf Eveneko} \\
+LinkedIn://  \href{https://www.linkedin.com/in/yubin-hu-7855861a0}{\bf Yubin Hu}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Operating Systems \\
+Software Engineering \\
+Compile Principle \\
+Computer Security \\
+Data Structure and Algorithm Analysis \\
+Artificial Intelligence \\
+Natural Language Processing \\
+Computer Networks \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Programming}
+\location{Over 5000 lines:}
+Python \textbullet{} C++ \textbullet{} Shell \textbullet{} \LaTeX\ \\
+\location{Over 1000 lines:}
+C \textbullet{} C \textbullet{} Jave \textbullet{} SQL \\
+\location{Familiar:}
+WebAssembly \textbullet{} Go \\
+\location{Framework:}
+Flask \textbullet{} Vue \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Tencent}
+\descript{| Transactional Development Intern }
+\location{Jun 2020 – Aug 2020 | Shenzhen, China}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Workde on the CSIG CCM Product Center, in C++ and Python to build a wechat mini program that generates QR codes for bus or subway.
+\item Implementing daily requirements and fixing online bugs.
+\item Build a platform for automatic generation of configuration files.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{SUStech}
+\descript{| Student Assistant }
+\location{ 2019 – 2021 | Shenzhen, China}
+\begin{tightemize}
+\item Data Structure and Algorithm Analysis, Sep 2019 - Dec 2019
+\item Algorithms Design and Analysis, Feb 2020 - Jun 2020
+\item Object-Oriented Programming, Sep 2020 - Dec 2020
+\item Software Engineering, Feb 2021 - Jun 2021
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+
+\runsubsection{Finding EOSIO Smart Contracts Security Issues by Comparing History Version}
+\descript{| Researcher}
+\location{Jan 2021 – Jun 2021 | SUSTech, Shenzhen, China}
+\location{Supervisor: \href{https://yepangliu.github.io/}{Yepang Liu}, \href{https://howiepku.github.io/index.html}{Haoyu Wang}}
+In this paper, we proposed the idea of searching for security issues in EOSIO smart contracts by comparing historical versions, and implemented three types of vulnerability detectors.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECT}
+
+\runsubsection{Online Algorithm Store \href{https://github.com/Eveneko/Astor}{Code}}
+\descript{| Main developer}
+\location{Oct 2019 – Dec 2019 | SUSTech, Shenzhen, China}
+Astor is a combination of an online algorithm store and a service cluster. Its purpose is to provide logistics staff to buy algorithms online and run examples.
+{\footnotesize \textit{\textbf{(Python, Flask, MySQL, Docker) }}} \\
+\sectionsep
+
+\runsubsection{SUSTech Programming Language \href{https://github.com/Eveneko/SPL}{Code}}
+\descript{| Developer}
+\location{Oct 2019 – Dec 2019 | SUSTech, Shenzhen, China}
+SPL is a C-like programming language that removes most advanced features in C standard, such as macros or pointers. It is strongly typed, with several primitive types and structure type, and supports C-like control flow.
+{\footnotesize \textit{\textbf{(C) }}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+
+\begin{tabular}{rll}
+2020     & Second Prize & Software Testing Contest | Web Security \\
+2020	 & Successful Participant & Interdisciplinary Contest in Modeling \\
+2019	 & Successful Participant & Interdisciplinary Contest in Modeling \\
+2019	 & Third Prize & Guangdong Collegiate Programming Contest \\
+2018	 & Third Prize & Annual Outstanding Student \\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Publications} 
+% \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
+
+\end{minipage} 
+\end{document}
+\documentclass[]{article}
